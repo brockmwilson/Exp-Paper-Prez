@@ -1,0 +1,55 @@
+---
+title: "Dynamic Inconsistency in Food Choice"
+author: "Brock Wilson"
+date: "4/5/2021"
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(cache = TRUE)
+library(pacman)
+```
+
+---
+#Summary
+
+Field experiment: home grocery delivery program
+
+Experimenters offer temptation foods at time of delivery in exchange for purchased foods
+
+Findings imply that 40% are dynamically inconsistent
+
+Individuals who are inconsistent are the least likely to use commitment device
+
+---
+#Introduction
+
+Temptation and self control models are hot in behavioral economics
+
+Dynamic inconsistencies pose issues: individuals want to go to the gym, but never want to go when asked
+
+This paper aims to address a core question: 
+
+### What is the relationship between dynamically inconsistent behaviour and beliefs thereof? 
+
+In other words: Are inconsistent individuals blind to their faults? 
+
+---
+#Introduction
+
+Previous literature finds positive to zero correlation between self control problems and awareness
+
+Suggests that those with self control problems should be aware of their problem
+
+
+
+
+---
+
+
+
+
