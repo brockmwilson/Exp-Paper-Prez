@@ -125,7 +125,7 @@ In return for participating, subjects received $25-20 gift cards
 library(png)
 library(grid)
 img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/chicagofoods.png")
- grid.raster(img)
+grid.raster(img)
 ```
 ---
 
@@ -133,6 +133,18 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
 
 
 
+
+
+---
+#Experimental Setup: Los Angeles - Food Selection
+```{r fig.width=100, fig.height=55,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/lafoods.png")
+ grid.raster(img)
+```
+
+---
 
 
 
