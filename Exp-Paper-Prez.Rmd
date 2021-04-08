@@ -244,6 +244,37 @@ Let $V_j = x_j \beta + \epsilon_j; j = 1,2,...$ where $x$ is food characteristic
 
 Implies probability $F(x_1,...,x_J; \beta) = \dfrac{\exp(x_j \beta)}{\sum_{i=1}^{J}\exp(x_i \beta)}$
 
+---
+
+# Testing for Dynamic Inconsistency
+
+There are two rankings of food: advance rankings and immediate rankings
+
+Testing if the rankings are the same across both periods
+
+---
+
+# Results - Dynamic Inconsistency
+
+
+
+
+---
+
+# Welfare Analysis
+
+Two different rankings imply three different welfares: advance, immediate and unambiguous
+
+Advance: calculating utility from rankings given prior to delivery
+
+Immediate: calculating utility from rankings given at delivery
+
+Unambiguous: calculating utility from rankings that have not changed with/without delivery
+
+---
+
+# Results - Welfare Analysis
+
 
 
 
