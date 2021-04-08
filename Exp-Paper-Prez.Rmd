@@ -171,9 +171,11 @@ Subjects received their delivery
 Subjects completed a survey and received compensation for participating
 
 ---
-#Experimental Setup: Los Angeles
+#Experimental Setup: Los Angeles - Details
 
 The authors replicated the experiment in LA for validation
+
+
 
 
 
@@ -187,9 +189,60 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
 ```
 
 ---
+#Experimental Setup: Los Angeles - Timeline
+
+Same process
+
+Randomly assigned half of individuals to commitment offers in second and third delivery
+
+Other half received second surprise exchange and only had commitment offer for third visit
+
+All 20 foods were available for exchange
 
 
+---
+#Timeline Summary
+```{r fig.width=100, fig.height=50,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/timeline-summary.png")
+ grid.raster(img)
+```
 
+---
+#Design Considerations - Perishable Foods
+
+In the Chicago study, all of the fruit and veggies were perishable so it could be an issue that subjects are exchanging not due to inconsistency, but because the fruits and veggies were bad and the sweet salty snacks were not perishable
+
+LA made some of the sweet and salty snacks perishable as well as some fruit and veggies not perishable
+
+---
+
+#Design Considerations - Exchanges
+
+In LA, all foods were exchangable (individuals could trade for any of the 20 foods during delivery)
+
+---
+
+#Design Considerations - Phrasing
+
+The authors reworded the script for LA for 2 reasons
+
+Commitment may have come across as socially desirable
+
+Exchanges may have seemed to be harder effort for delivery
+
+---
+
+# Structural Analysis
+
+Using rank order discrete choice methods
+
+Defined foods by characteristics such as macronutrients, etc
+
+Let $V_j = x_j \beta + \epsilon_j; j = 1,2,...$ where $x$ is food characteristics
+
+Implies probability $F(x_1,...,x_J; \beta) = \dfrac{\exp(x_j \beta)}{\sum_{i=1}^{J}\exp(x_i \beta)}$
 
 
 
