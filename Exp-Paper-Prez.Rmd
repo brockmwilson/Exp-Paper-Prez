@@ -171,6 +171,13 @@ Subjects received their delivery
 Subjects completed a survey and received compensation for participating
 
 ---
+#Experimental Setup: Los Angeles
+
+The authors replicated the experiment in LA for validation
+
+
+
+---
 #Experimental Setup: Los Angeles - Food Selection
 ```{r fig.width=100, fig.height=55,echo=FALSE}
 library(png)
