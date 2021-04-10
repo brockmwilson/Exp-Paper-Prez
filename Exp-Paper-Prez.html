@@ -25,35 +25,48 @@ class: center, middle, inverse, title-slide
 ---
 #Summary
 
-Field experiment: home grocery delivery program
+### Field experiment: home grocery delivery program
 
-Experimenters offer temptation foods at time of delivery in exchange for purchased foods
+--
+&lt;br&gt;
+### Experimenters offer various foods at time of delivery in exchange for purchased foods
 
-Findings imply that 40% are dynamically inconsistent
+--
+&lt;br&gt;
+### Findings imply that 40% of individuals are dynamically inconsistent
 
-Individuals who are inconsistent are the least likely to use commitment device
+--
+&lt;br&gt;
+### Individuals who are inconsistent are the least likely to use commitment device
 
 ---
 #Introduction
 
-Temptation and self control models are hot in behavioral economics
-
 Dynamic inconsistencies pose issues: individuals want to go to the gym, but never want to go when asked
 
+
+--
+&lt;br&gt;
 This paper aims to address a core question: 
 
-### What is the relationship between dynamically inconsistent behaviour and beliefs thereof? 
+#### What is the relationship between dynamically inconsistent behaviour and beliefs thereof? 
 
+--
+&lt;br&gt;
 In other words: Are inconsistent individuals blind to their faults? 
 
 ---
 #Introduction
 
-Previous literature finds positive to zero correlation between self control problems and awareness
+#### Previous literature finds positive to zero correlation between self control problems and awareness
 
-Suggests that those with self control problems should be aware of their problem
+&lt;br&gt;
 
-Caveat: all of these findings comes from lab experiments (may have experimental bias)
+#### Suggests that those with self control problems should be aware of their problem
+
+&lt;br&gt;
+
+#### Caveat: all of these findings comes from lab experiments (may have experimental bias)
 
 ---
 
@@ -191,18 +204,130 @@ The authors replicated the experiment in LA for validation
 
 Same process
 
-Week 
+Randomly assigned half of individuals to commitment offers in second and third delivery
 
+Other half received second surprise exchange and only had commitment offer for third visit
 
+All 20 foods were available for exchange
 
 
 ---
 #Timeline Summary
 ![](Exp-Paper-Prez_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
 
+---
+#Design Considerations - Perishable Foods
+
+In the Chicago study, all of the fruit and veggies were perishable so it could be an issue that subjects are exchanging not due to inconsistency, but because the fruits and veggies were bad and the sweet salty snacks were not perishable
+
+LA made some of the sweet and salty snacks perishable as well as some fruit and veggies not perishable
+
+---
+
+#Design Considerations - Exchanges
+
+In LA, all foods were exchangable (individuals could trade for any of the 20 foods during delivery)
+
+---
+
+#Design Considerations - Phrasing
+
+The authors reworded the script for LA for 2 reasons
+
+Commitment may have come across as socially desirable
+
+Exchanges may have seemed to be harder effort for delivery
+
+---
+
+# Structural Analysis
+
+Using rank order discrete choice methods
+
+Defined foods by characteristics such as macronutrients, etc
+
+Let `\(V_j = x_j \beta + \epsilon_j; j = 1,2,...\)` where `\(x\)` is food characteristics
+
+Implies probability `\(F(x_1,...,x_J; \beta) = \dfrac{\exp(x_j \beta)}{\sum_{i=1}^{J}\exp(x_i \beta)}\)`
+
+---
+
+# Testing for Dynamic Inconsistency
+
+There are two rankings of food: advance rankings and immediate rankings
+
+Testing if the rankings are the same across both periods
+
+---
+
+# Results - Dynamic Inconsistency
+
+
+![](Exp-Paper-Prez_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+
+---
+# Results - Dynamic Inconsistency
+
+
+![](Exp-Paper-Prez_files/figure-html/unnamed-chunk-5-1.png)&lt;!-- --&gt;
+
+
+---
+# Results - Dynamic Inconsistency
+
+
+![](Exp-Paper-Prez_files/figure-html/unnamed-chunk-6-1.png)&lt;!-- --&gt;
+
+
+---
+
+# Welfare Analysis
+
+Two different rankings imply three different welfares: advance, immediate and unambiguous
+
+Advance: calculating utility from rankings given prior to delivery
+
+Immediate: calculating utility from rankings given at delivery
+
+Unambiguous: calculating utility from rankings that have not changed with/without delivery
+
+---
+
+# Results - Welfare Analysis
+
+
+![](Exp-Paper-Prez_files/figure-html/unnamed-chunk-7-1.png)&lt;!-- --&gt;
+
+---
+
+# Results - Welfare Analysis
+
+![](Exp-Paper-Prez_files/figure-html/unnamed-chunk-8-1.png)&lt;!-- --&gt;
+
+---
+
+
+# Results - Welfare Analysis
+
+![](Exp-Paper-Prez_files/figure-html/unnamed-chunk-9-1.png)&lt;!-- --&gt;
+
+---
+# Results - Welfare Analysis
+
+![](Exp-Paper-Prez_files/figure-html/unnamed-chunk-10-1.png)&lt;!-- --&gt;
+
+---
+# Results - Welfare Analysis
 
 
 
+---
+
+# Conclusion
+
+Dynamic inconsistences are prevalent (around 40% of individuals)
+
+Inconsistency leads to approximately a 5% decrease in welfare (depends on criterion)
 
 
 

@@ -17,35 +17,48 @@ library(pacman)
 ---
 #Summary
 
-Field experiment: home grocery delivery program
+### Field experiment: home grocery delivery program
 
-Experimenters offer temptation foods at time of delivery in exchange for purchased foods
+--
+<br>
+### Experimenters offer various foods at time of delivery in exchange for purchased foods
 
-Findings imply that 40% are dynamically inconsistent
+--
+<br>
+### Findings imply that 40% of individuals are dynamically inconsistent
 
-Individuals who are inconsistent are the least likely to use commitment device
+--
+<br>
+### Individuals who are inconsistent are the least likely to use commitment device
 
 ---
 #Introduction
 
-Temptation and self control models are hot in behavioral economics
-
 Dynamic inconsistencies pose issues: individuals want to go to the gym, but never want to go when asked
 
+
+--
+<br>
 This paper aims to address a core question: 
 
-### What is the relationship between dynamically inconsistent behaviour and beliefs thereof? 
+#### What is the relationship between dynamically inconsistent behaviour and beliefs thereof? 
 
+--
+<br>
 In other words: Are inconsistent individuals blind to their faults? 
 
 ---
 #Introduction
 
-Previous literature finds positive to zero correlation between self control problems and awareness
+#### Previous literature finds positive to zero correlation between self control problems and awareness
 
-Suggests that those with self control problems should be aware of their problem
+<br>
 
-Caveat: all of these findings comes from lab experiments (may have experimental bias)
+#### Suggests that those with self control problems should be aware of their problem
+
+<br>
+
+#### Caveat: all of these findings comes from lab experiments (may have experimental bias)
 
 ---
 
@@ -257,6 +270,35 @@ Testing if the rankings are the same across both periods
 # Results - Dynamic Inconsistency
 
 
+```{r fig.width=100, fig.height=50,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/dynamic-cons.png")
+ grid.raster(img)
+```
+
+---
+# Results - Dynamic Inconsistency
+
+
+```{r fig.width=100, fig.height=50,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/dyn-reg.png")
+ grid.raster(img)
+```
+
+
+---
+# Results - Dynamic Inconsistency
+
+
+```{r fig.width=100, fig.height=50,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/dyn-utility.png")
+ grid.raster(img)
+```
 
 
 ---
@@ -276,6 +318,58 @@ Unambiguous: calculating utility from rankings that have not changed with/withou
 # Results - Welfare Analysis
 
 
+```{r fig.width=100, fig.height=50,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/welfare-1.png")
+ grid.raster(img)
+```
+
+---
+
+# Results - Welfare Analysis
+
+```{r fig.width=100, fig.height=50,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/welfare-2.png")
+ grid.raster(img)
+```
+
+---
+
+
+# Results - Welfare Analysis
+
+```{r fig.width=100, fig.height=50,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/welfare-3.png")
+ grid.raster(img)
+```
+
+---
+# Results - Welfare Analysis
+
+```{r fig.width=100, fig.height=50,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/welfare-4.png")
+ grid.raster(img)
+```
+
+---
+# Results - Welfare Analysis
+
+
+
+---
+
+# Conclusion
+
+Dynamic inconsistences are prevalent (around 40% of individuals)
+
+Inconsistency leads to approximately a 5% decrease in welfare (depends on criterion)
 
 
 
