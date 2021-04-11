@@ -216,6 +216,8 @@ Week 3:
 
 #### Subjects received their delivery
 
+<br>
+
 #### Subjects completed a survey and received compensation for participating ($20 gift card)
 
 ---
@@ -274,11 +276,15 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
 
 #### Chicago
 
-- All of the fruit and veggies were perishable so subjects may be exchanging due to fruits and veggies were perishable and the sweet salty snacks were not perishable
+- Fruit and veggies were perishable 
+
+- Sweet and salty snacks were not perishable
+
+- Exchange may be due to perishability of food and not inconsistency
 
 #### LA
 
-Fruits/veggies and snacks had both perishable and non perishable options
+- Fruits/veggies and snacks had both perishable and non perishable options
 
 ---
 
@@ -286,7 +292,13 @@ Fruits/veggies and snacks had both perishable and non perishable options
 
 ## Exchanges
 
-In LA, all foods were exchangable (individuals could trade for any of the 20 foods during delivery)
+#### Chicago
+
+- Only 4 foods were available for exchange (individuals' favorites)
+
+#### LA
+
+- All foods were available for exchange (individuals could trade for any of the 20 foods during delivery)
 
 ---
 
@@ -294,11 +306,15 @@ In LA, all foods were exchangable (individuals could trade for any of the 20 foo
 
 ## Phrasing
 
-The authors reworded the script for LA for 2 reasons
+#### Chicago
 
-Commitment may have come across as socially desirable
+- Commitment may have come across as socially desirable in script
 
-Exchanges may have seemed to be harder effort for delivery
+- Exchanges may have seemed to be harder effort for delivery
+
+#### Los Angeles
+
+- Reworded script to account for these
 
 ---
 
@@ -306,9 +322,15 @@ Exchanges may have seemed to be harder effort for delivery
 
 Using rank order discrete choice methods
 
-Defined foods by characteristics such as macronutrients, etc
+<br>
 
-Let $V_j = x_j \beta + \epsilon_j; j = 1,2,...$ where $x$ is food characteristics
+Let $V_j = x_j \beta + \epsilon_j; j = 1,2,...$
+
+<br>
+
+$x_j$ is food j's characteristics such as macronutrients, micronutrients, etc
+
+<br>
 
 Implies probability $F(x_1,...,x_J; \beta) = \dfrac{\exp(x_j \beta)}{\sum_{i=1}^{J}\exp(x_i \beta)}$
 
@@ -316,13 +338,27 @@ Implies probability $F(x_1,...,x_J; \beta) = \dfrac{\exp(x_j \beta)}{\sum_{i=1}^
 
 # Testing for Dynamic Inconsistency
 
-There are two rankings of food: advance rankings and immediate rankings
+Two rankings of food: 
 
-Testing if the rankings are the same across both periods
+#### Advance rankings
+
+- Using the food characteristics of the original basket to calculate utility
+
+#### Immediate rankings
+
+- Using the food characteristics of the immediate basket to calculate utility
+
+<br>
+
+To test for dynamic consistency we need rankings to be the same across both periods
 
 ---
 
-# Results - Dynamic Inconsistency
+# Results - Commitment
+
+---
+
+# Results - Commitment
 
 
 ```{r fig.width=100, fig.height=50,echo=FALSE}
@@ -332,8 +368,18 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
  grid.raster(img)
 ```
 
+
 ---
-# Results - Dynamic Inconsistency
+
+# Results - Dynamic Consistency
+
+This next table looks at the relationship between various food groups and 
+
+FIGURE OUT! Maybe skip?
+
+
+---
+# Results - Dynamic Consistency
 
 
 ```{r fig.width=100, fig.height=50,echo=FALSE}
