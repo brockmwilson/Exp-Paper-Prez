@@ -34,31 +34,38 @@ library(pacman)
 ---
 #Introduction
 
-Dynamic inconsistencies pose issues: individuals want to go to the gym, but never want to go when asked
+#### Dynamic inconsistency: Individuals have two selves; today self and tomorrow self. If they don't share the same preferences, then there could be decision problems.
 
+<br>
 
 --
-<br>
-This paper aims to address a core question: 
+#### Dynamic inconsistencies pose issues: individuals want to go to the gym, but never want to go when asked
 
-#### What is the relationship between dynamically inconsistent behaviour and beliefs thereof? 
+<br>
 
 --
-<br>
-In other words: Are inconsistent individuals blind to their faults? 
-
----
-#Introduction
-
 #### Previous literature finds positive to zero correlation between self control problems and awareness
 
 <br>
 
+--
 #### Suggests that those with self control problems should be aware of their problem
 
 <br>
 
+--
 #### Caveat: all of these findings comes from lab experiments (may have experimental bias)
+
+---
+
+#Core Question
+
+<br>
+<br>
+<br>
+<br>
+
+### What is the Relationship Between Dynamically Inconsistent Behaviour and Beliefs thereof?
 
 ---
 
