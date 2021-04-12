@@ -344,7 +344,7 @@ Implies probability $F(x_1,...,x_J; \beta) = \dfrac{\exp(x_j \beta)}{\sum_{i=1}^
 
 # Welfare Analysis
 
-Two rankings of food: 
+Three rankings of food: 
 
 #### Advance Rankings
 
@@ -359,6 +359,8 @@ Two rankings of food:
 - Using the food characteristics of the unchanged goods in the basket to calculate utility
 
 --
+
+<br>
 
 This paper uses **unambiguous rankings** for regressions
 
@@ -448,17 +450,29 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
 ```
 
 ---
-# Results - Welfare Analysis
-
-
-
----
 
 # Conclusion
 
-Dynamic inconsistences are prevalent (around 40% of individuals)
+#### Dynamic inconsistences are prevalent (around 40% of individuals)
 
-Inconsistency leads to approximately a 5% decrease in welfare (depends on criterion)
+--
+
+<br>
+
+#### Negative correlation between consistency and awareness
+
+--
+
+<br>
+
+#### Inconsistency leads to approximately a 5% decrease in welfare (depends on criterion)
+
+--
+
+<br>
+
+#### Both mandating and allowing commitment does not lead to a pareto improvement; only tailored policy
+
 
 ---
 
