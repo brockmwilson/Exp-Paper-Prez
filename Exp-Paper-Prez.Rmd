@@ -471,7 +471,7 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
 
 <br>
 
-#### Both mandating and allowing commitment does not lead to a pareto improvement; only tailored policy
+#### Both mandating and allowing commitment does not lead to a Pareto improvement; only tailored policy
 
 
 ---
