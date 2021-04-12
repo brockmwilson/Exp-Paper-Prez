@@ -71,9 +71,9 @@ library(pacman)
 
 #Experimental Setup
 
-Two experiments used 
+#### Two experiments used 
 
-One for findings in Chicago and one for replication of findings in LA
+#### One for findings in Chicago and one for replication of findings in LA
 
 <br>
 
@@ -282,7 +282,7 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
 
 - Exchange may be due to perishability of food and not inconsistency
 
-#### LA
+#### Los Angeles
 
 - Fruits/veggies and snacks had both perishable and non perishable options
 
@@ -296,7 +296,7 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
 
 - Only 4 foods were available for exchange (individuals' favorites)
 
-#### LA
+#### Los Angeles
 
 - All foods were available for exchange (individuals could trade for any of the 20 foods during delivery)
 
@@ -320,7 +320,7 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
 
 # Structural Analysis
 
-Using rank order discrete choice methods
+## Rank order discrete choice methods
 
 <br>
 
@@ -334,27 +334,33 @@ $x_j$ is food j's characteristics such as macronutrients, micronutrients, etc
 
 Implies probability $F(x_1,...,x_J; \beta) = \dfrac{\exp(x_j \beta)}{\sum_{i=1}^{J}\exp(x_i \beta)}$
 
+<br>
+
+--
+
+#### To test for dynamic consistency we need estimated $\beta$'s to be the same across both periods
+
 ---
 
-# Testing for Dynamic Inconsistency
+# Welfare Analysis
 
 Two rankings of food: 
 
-#### Advance rankings
+#### Advance Rankings
 
 - Using the food characteristics of the original basket to calculate utility
 
-#### Immediate rankings
+#### Immediate Rankings
 
 - Using the food characteristics of the immediate basket to calculate utility
 
-<br>
+#### Unambiguous Rankings
 
-To test for dynamic consistency we need rankings to be the same across both periods
+- Using the food characteristics of the unchanged goods in the basket to calculate utility
 
----
+--
 
-# Results - Commitment
+This paper uses **unambiguous rankings** for regressions
 
 ---
 
@@ -368,18 +374,13 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
  grid.raster(img)
 ```
 
+---
+# Results - Dynamic Inconsistency
+
+Explain what's going on
 
 ---
-
-# Results - Dynamic Consistency
-
-This next table looks at the relationship between various food groups and 
-
-FIGURE OUT! Maybe skip?
-
-
----
-# Results - Dynamic Consistency
+# Results - Dynamic Inconsistency
 
 
 ```{r fig.width=100, fig.height=50,echo=FALSE}
@@ -400,19 +401,6 @@ library(grid)
 img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/dyn-utility.png")
  grid.raster(img)
 ```
-
-
----
-
-# Welfare Analysis
-
-Two different rankings imply three different welfares: advance, immediate and unambiguous
-
-Advance: calculating utility from rankings given prior to delivery
-
-Immediate: calculating utility from rankings given at delivery
-
-Unambiguous: calculating utility from rankings that have not changed with/without delivery
 
 ---
 
