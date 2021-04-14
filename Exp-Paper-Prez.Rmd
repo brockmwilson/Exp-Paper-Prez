@@ -493,11 +493,6 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
 ---
 # Results - Dynamic Inconsistency
 
-Explain what's going on
-
----
-# Results - Dynamic Inconsistency
-
 
 ```{r fig.width=100, fig.height=50,echo=FALSE}
 library(png)
