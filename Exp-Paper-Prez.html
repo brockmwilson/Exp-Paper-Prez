@@ -22,6 +22,80 @@ class: center, middle, inverse, title-slide
 
 
 
+
+---
+
+#Introduction
+
+Dynamic Inconsistency arises due to individuals being present biased ($\beta \delta$ discounting)
+
+--
+
+A simple two period example:
+
+Procastinate vs going to the gym
+
+--
+
+`\begin{align}
+\max_{a_t} U(c) = \beta (c_t) + \delta (v_{t+1} - c_{t+1}) + \delta^2(v_{t+2})
+\end{align}`
+
+--
+
+Cost = `\(c_t\)`
+
+Reward = `\(v_t\)`
+
+--
+
+`\(\beta\)` = 2
+
+`\(\delta\)` = `\(\dfrac{3}{4}\)`
+
+Action set, `\(a_t\)`, is: `\((c_t, v_{t+1}) = (0, 0), (-6, 10)\)` 
+
+
+---
+
+#Introduction
+
+Procastinate = `\((0,0)\)`
+
+Go to the gym = `\((-6,10)\)`
+
+--
+
+In period 1:
+
+- Utility from procastinate `\(= \beta*0 + \delta*0 = 0\)`
+
+--
+
+- Utility from gym `\(= \beta * -6 + \delta*10 = -12 + 7.5 = -5.5\)`
+
+--
+
+- Chooses procastinate
+
+--
+
+In period 2:
+
+- Utility from procastinate `\(= 0 + \delta*0 = 0\)`
+
+--
+
+- Utility from gym `\(= -6 + \delta*10 = -6 + 7.5 = 1.5\)`
+
+--
+
+- Chooses to go to gym
+
+--
+
+Cycle repeats: individuals **procastinate today** and **go to the gym tomorrow**
+
 ---
 #Introduction
 
@@ -46,80 +120,6 @@ class: center, middle, inverse, title-slide
 
 --
 #### Caveat: all of these findings comes from lab experiments (may have experimental bias)
-
-
----
-
-#Introduction
-
-Dynamic Inconsistency arises due to individuals being present biased
-
---
-
-A simple two period example:
-
-Eating donuts vs going to the gym
-
---
-
-`\begin{align}
-\max_{a_t} U(c) = \beta (c_t) + \delta (v_{t+1} - c_{t+1}) + \delta^2(v_{t+2})
-\end{align}`
-
---
-
-Cost = `\(c_t\)`
-
-Reward = `\(v_t\)`
-
---
-
-`\(\beta\)` = 2
-
-`\(\delta\)` = `\(\dfrac{3}{4}\)`
-
-Action set, `\(a_t\)`, is: `\((c_t, v_{t+1}) = (0, 1), (-6, 10)\)` 
-
-
----
-
-#Introduction
-
-Eat donuts = `\((0,1)\)`
-
-Go to the gym = `\((-6,10)\)`
-
---
-
-In period 1:
-
-- Utility from eating donuts `\(= \beta*0 + \delta*1 = 0.75\)`
-
---
-
-- Utility from gym `\(= \beta * -6 + \delta*10 = -12 + 7.5 = -5.5\)`
-
---
-
-- Chooses eating donuts
-
---
-
-In period 2:
-
-- Utility from eating donuts `\(= 0 + \delta*1 = 0.75\)`
-
---
-
-- Utility from gym `\(= -6 + \delta*10 = -6 + 7.5 = 1.5\)`
-
---
-
-- Chooses to go to gym
-
---
-
-Cycle repeats: individuals **eat a donut today** and **plan to go to the gym tomorrow**
 
 
 ---
@@ -460,15 +460,23 @@ Implies probability `\(F(x_1,...,x_J; \beta) = \dfrac{\exp(x_j \beta)}{\sum_{i=1
 
 ---
 
+# Results
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+### 
+
+
+---
+
 # Results - Commitment
 
 
 ![](Exp-Paper-Prez_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
-
----
-# Results - Dynamic Inconsistency
-
-Explain what's going on
 
 ---
 # Results - Dynamic Inconsistency
