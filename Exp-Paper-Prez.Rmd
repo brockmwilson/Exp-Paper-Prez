@@ -15,23 +15,6 @@ library(pacman)
 ```
 
 ---
-#Summary
-
-### Field experiment: home grocery delivery program
-
---
-<br>
-### Experimenters offer various foods at time of delivery in exchange for purchased foods
-
---
-<br>
-### Findings imply that 40% of individuals are dynamically inconsistent
-
---
-<br>
-### Individuals who are inconsistent are the least likely to use commitment device
-
----
 #Introduction
 
 #### Dynamic inconsistency: Individuals have two selves; today self and tomorrow self. If they don't share the same preferences, then there could be decision problems.
@@ -56,6 +39,81 @@ library(pacman)
 --
 #### Caveat: all of these findings comes from lab experiments (may have experimental bias)
 
+
+---
+
+#Introduction
+
+Dynamic Inconsistency arises due to individuals being present biased
+
+--
+
+A simple two period example:
+
+Eating donuts vs going to the gym
+
+--
+
+\begin{align}
+\max_{a_t} U(c) = \beta (c_t) + \delta (v_{t+1} - c_{t+1}) + \delta^2(v_{t+2})
+\end{align}
+
+--
+
+Cost = $c_t$
+
+Reward = $v_t$
+
+--
+
+$\beta$ = 2
+
+$\delta$ = $\dfrac{3}{4}$
+
+Action set, $a_t$, is: $(c_t, v_{t+1}) = (0, 1), (-6, 10)$ 
+
+
+---
+
+#Introduction
+
+Eat donuts = $(0,1)$
+
+Go to the gym = $(-6,10)$
+
+--
+
+In period 1:
+
+- Utility from eating donuts $= \beta*0 + \delta*1 = 0.75$
+
+--
+
+- Utility from gym $= \beta * -6 + \delta*10 = -12 + 7.5 = -5.5$
+
+--
+
+- Chooses eating donuts
+
+--
+
+In period 2:
+
+- Utility from eating donuts $= 0 + \delta*1 = 0.75$
+
+--
+
+- Utility from gym $= -6 + \delta*10 = -6 + 7.5 = 1.5$
+
+--
+
+- Chooses to go to gym
+
+--
+
+This continues as individuals **eat a donut today** and **plan to go to the gym tomorrow**
+
+
 ---
 
 #Core Question
@@ -69,11 +127,31 @@ library(pacman)
 
 ---
 
+#Summary
+
+### Field Experiment: Home Grocery Delivery program
+
+--
+<br>
+### Experimenters offer various foods at time of delivery in exchange for purchased foods
+
+--
+<br>
+### Findings imply that 40% of individuals are dynamically inconsistent
+
+--
+<br>
+### Individuals who are inconsistent are the least likely to use commitment device
+
+---
+
 #Experimental Setup
 
-#### Two experiments used 
+#### Two experiments used:
 
-#### One for findings in Chicago and one for replication of findings in LA
+- #### An initial experiment in Chicago
+
+- #### A replication experiment in LA
 
 <br>
 
@@ -81,11 +159,15 @@ library(pacman)
 
 --
 
+Advance bundle = bundle pre-ordered (i.e. the bundle ordered from a prior week)
+
+--
+
 Commitment Demand = choosing to restrict oneself to the advance bundle
 
-Advance bundle = bundle pre-ordered
+--
 
-Immediate bundle = bundle at time of delivery
+Immediate foods = foods offered in exchange at time of delivery
 
 
 ---
@@ -94,15 +176,15 @@ Immediate bundle = bundle at time of delivery
 
 #### Natural Experiment: Subjects were not told they were apart of an experiment
 
-<br>
+#### 218 subjects signed up at small grocery store in a low income area
+
+#### Store put out advertisement for home delivery program
 
 #### 20 foods were offered in the experiment for home delivery
 
-<br>
+#### Manager of store provided which foods should be used
 
 #### Subjects were asked to rate each food on a 1 to 7 scale
-
-<br>
 
 #### 3 week food delivery program
 
@@ -193,19 +275,21 @@ Week 3:
 
 #### Upon delivery, subjects were surprised with immediate foods (their highest ranked foods) and were offered up to 4 exchanges
 
-<br>
-
 --
 
-#### Immediate foods: highest rated fruit/veggie in bundle, highest rated fruit/veggie not in bundle, highest rated sweet/salty snack in bundle, highest rated sweet/salty not in bundle
+#### Immediate foods: 
 
-<br>
+- Highest rated fruit/veggie in bundle
+
+- Highest rated fruit/veggie not in bundle 
+
+- Highest rated sweet/salty snack in bundle
+
+- Highest rated sweet/salty snack not in bundle
 
 --
 
 #### After making exchanges, subjects used a new order sheet for Week 3
-
-<br>
 
 --
 
