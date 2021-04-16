@@ -477,6 +477,18 @@ Implies probability $F(x_1,...,x_J; \beta) = \dfrac{\exp(x_j \beta)}{\sum_{i=1}^
 
 ### 
 
+---
+
+# Bundle Characteristics
+
+
+```{r fig.width=100, fig.height=50,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/bundle-charac.png")
+ grid.raster(img)
+```
+
 
 ---
 
@@ -500,6 +512,20 @@ library(grid)
 img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/dyn-reg.png")
  grid.raster(img)
 ```
+
+---
+
+# Results - Commitment
+
+
+```{r fig.width=100, fig.height=50,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/advance-immediate.png")
+ grid.raster(img)
+```
+
+
 
 
 ---
@@ -559,6 +585,17 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
 ```
 
 ---
+# Results - Robustness
+
+```{r fig.width=100, fig.height=50,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/want-vs-should.png")
+ grid.raster(img)
+```
+
+
+---
 
 # Conclusion
 
@@ -582,6 +619,12 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
 
 #### Both mandating and allowing commitment does not lead to a Pareto improvement; only tailored policy
 
+
+--
+
+<br>
+
+#### It's still hard to get people to eat their veggies
 
 ---
 
