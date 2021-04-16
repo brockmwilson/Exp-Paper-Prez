@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Inconsistency in Food Choice"
 author: "Brock Wilson"
-date: "4/5/2021"
+date: "4/15/2021"
 output: 
   xaringan::moon_reader:
     css: [default, metropolis, metropolis-fonts]
