@@ -479,6 +479,7 @@ Implies probability $F(x_1,...,x_J; \beta) = \dfrac{\exp(x_j \beta)}{\sum_{i=1}^
 # Bundle Characteristics
 
 
+
 ```{r fig.width=100, fig.height=50,echo=FALSE}
 library(png)
 library(grid)
@@ -486,6 +487,8 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
  grid.raster(img)
 ```
 
+
+Note that constants sum to 10
 
 ---
 
@@ -580,6 +583,13 @@ library(grid)
 img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/welfare-4.png")
  grid.raster(img)
 ```
+
+---
+# Results - Robustness
+
+Reminder:
+
+"In this subsection, we provide additional evidence that dynamic inconsistency is a product of preferences rather than an alternate force such as the resolution of uncertainty, changing environmental factors or noise"
 
 ---
 # Results - Robustness
