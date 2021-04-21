@@ -19,7 +19,7 @@ library(pacman)
 
 #Introduction
 
-Dynamic Inconsistency arises due to individuals being present biased ($\beta \delta$ discounting)
+Dynamic Inconsistency arises due to individuals being present biased (Beta Delta discounting)
 
 --
 
@@ -30,18 +30,18 @@ Procastinate vs going to the gym
 --
 
 \begin{align}
-\max_{a_t} U(c) = \beta (c_t) + \delta (v_{t+1} - c_{t+1}) + \delta^2(v_{t+2})
+\max_{a_t} U(c) = (c_t) + \beta*\delta (v_{t+1} + c_{t+1}) + \beta*\delta^2(v_{t+2})
 \end{align}
 
 --
 
 Cost = $c_t$
 
-Reward = $v_t$
+Reward = $v_{t+1}$
 
 --
 
-$\beta$ = 2
+$\beta$ = $\dfrac{1}{2}$
 
 $\delta$ = $\dfrac{3}{4}$
 
@@ -60,15 +60,15 @@ Go to the gym = $(-6,10)$
 
 In period 1:
 
-- Utility from procastinate $= \beta*0 + \delta*0 = 0$
+- Utility from procastinate $= 0 + \beta*\delta*0 = 0$
 
 --
 
-- Utility from gym $= \beta * -6 + \delta*10 = -12 + 7.5 = -5.5$
+- Utility from gym $= -6 + \beta*\delta*10 = -6 + 3.75 = -2.25$
 
 --
 
-- Chooses procastinate
+- **Procastinate**
 
 --
 
@@ -82,11 +82,11 @@ In period 2:
 
 --
 
-- Chooses to go to gym
+- **Go to gym**
 
 --
 
-Cycle repeats: individuals **procastinate today** and **go to the gym tomorrow**
+Cycle repeats the next day: individuals **procastinate today** and **go to the gym tomorrow**
 
 ---
 #Introduction
@@ -98,7 +98,7 @@ Cycle repeats: individuals **procastinate today** and **go to the gym tomorrow**
 --
 #### Dynamic inconsistencies pose issues: individuals want to go to the gym, but never want to go when asked
 
-#### Current research into commitment devices and inconsistent preferences
+#### Current research: commitment devices and inconsistent preferences
 
 --
 <br>
@@ -191,7 +191,7 @@ Immediate foods = foods offered in exchange at time of delivery
 
 --
 
-#### Manager of store provided which foods should be used (Institutional Knowledge)
+#### Manager of store provided which foods should be used
 
 --
 
@@ -488,8 +488,6 @@ img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Ec
 ```
 
 
-Note that constants sum to 10
-
 ---
 
 # Results - Commitment
@@ -501,6 +499,8 @@ library(grid)
 img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/dynamic-cons.png")
  grid.raster(img)
 ```
+
+Commitment offer timing may partly explain difference
 
 ---
 # Results - Dynamic Inconsistency
@@ -583,13 +583,6 @@ library(grid)
 img <- readPNG("/Users/Brock/Desktop/Second-Year-PhD/3rd-Quarter/Experimental-Economics/Paper-Presentation/Exp-Paper-Prez/welfare-4.png")
  grid.raster(img)
 ```
-
----
-# Results - Robustness
-
-Reminder:
-
-"In this subsection, we provide additional evidence that dynamic inconsistency is a product of preferences rather than an alternate force such as the resolution of uncertainty, changing environmental factors or noise"
 
 ---
 # Results - Robustness
